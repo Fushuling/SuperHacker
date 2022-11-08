@@ -1,0 +1,3 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  MyCRT.cpp
+  MyCRT.vcxproj -> C:\Users\Mocha\source\repos\NEW_NoCRT_Dll\NoCRT_Dll\MyCRT.lib
