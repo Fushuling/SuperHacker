@@ -63,7 +63,7 @@
 
 - **自定义通讯协议**
 
-  由于最初苟安懋的病毒端与远控端都是在golang环境下编写的（https://git.sre.victor-core.top/Fushuling/cobal-srtike/），运用了golang的原生库，该原生库的数据传输格式很难用CPP直接解析，所以我们使用TCP协议，制定了常用数据类型的传输和打包格式，实现了一个通讯协议来进行双端的交互，同时增强了交互流量的隐蔽性，具体内容在MyOperatePacket4Server和MyPacket.cpp中。
+  由于最初苟安懋的病毒端与远控端都是在golang环境下编写的，运用了golang的原生库，该原生库的数据传输格式很难用CPP直接解析，所以我们使用TCP协议，制定了常用数据类型的传输和打包格式，实现了一个通讯协议来进行双端的交互，同时增强了交互流量的隐蔽性，具体内容在MyOperatePacket4Server和MyPacket.cpp中。
 
 - **键盘记录**
 
